@@ -1,5 +1,6 @@
 function appendCharecter (charecter){
     document.getElementById("display").value += charecter;
+    document.body.style.backgroundColor = "red";
 }
 function clearDisplay(){
     document.getElementById("display").value ='';
